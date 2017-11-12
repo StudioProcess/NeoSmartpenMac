@@ -20,7 +20,7 @@
 		6D25DB571FB5D4A800E81E1B /* NPPUIInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB551FB5D4A800E81E1B /* NPPUIInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D25DB581FB5D4A800E81E1B /* NPPUIInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB561FB5D4A800E81E1B /* NPPUIInfo.m */; };
 		6D25DB5C1FB5D4C700E81E1B /* NJCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB5A1FB5D4C700E81E1B /* NJCommon.m */; };
-		6D25DB5D1FB5D4C700E81E1B /* NJCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB5B1FB5D4C700E81E1B /* NJCommon.h */; };
+		6D25DB5D1FB5D4C700E81E1B /* NJCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB5B1FB5D4C700E81E1B /* NJCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D25DB5F1FB5D4F300E81E1B /* configure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB5E1FB5D4F300E81E1B /* configure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D25DB631FB5D72100E81E1B /* NJNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB611FB5D72100E81E1B /* NJNode.m */; };
 		6D25DB641FB5D72100E81E1B /* NJNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB621FB5D72100E81E1B /* NJNode.h */; settings = {ATTRIBUTES = (Public, ); }; };

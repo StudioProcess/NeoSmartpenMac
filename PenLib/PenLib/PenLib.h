@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NJPenCommManager.h"
+#import "NJCommon.h"
 #import "NJNode.h"
 
 @interface PenLib : NSObject

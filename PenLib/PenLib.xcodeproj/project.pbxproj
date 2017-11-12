@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D25DB381FB5D36400E81E1B /* PenLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB371FB5D36400E81E1B /* PenLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB441FB5D42000E81E1B /* NJPenCommManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB421FB5D42000E81E1B /* NJPenCommManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB451FB5D42000E81E1B /* NJPenCommManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB431FB5D42000E81E1B /* NJPenCommManager.m */; };
+		6D25DB481FB5D45100E81E1B /* NJPenCommParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB461FB5D45100E81E1B /* NJPenCommParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB491FB5D45100E81E1B /* NJPenCommParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB471FB5D45100E81E1B /* NJPenCommParser.m */; };
+		6D25DB4B1FB5D46000E81E1B /* NeoPenService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB4A1FB5D46000E81E1B /* NeoPenService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB4F1FB5D48400E81E1B /* NPNotebookInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB4D1FB5D48400E81E1B /* NPNotebookInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB501FB5D48400E81E1B /* NPNotebookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB4E1FB5D48400E81E1B /* NPNotebookInfo.m */; };
+		6D25DB531FB5D48D00E81E1B /* NPPaperInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB511FB5D48D00E81E1B /* NPPaperInfo.m */; };
+		6D25DB541FB5D48D00E81E1B /* NPPaperInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB521FB5D48D00E81E1B /* NPPaperInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB571FB5D4A800E81E1B /* NPPUIInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB551FB5D4A800E81E1B /* NPPUIInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB581FB5D4A800E81E1B /* NPPUIInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB561FB5D4A800E81E1B /* NPPUIInfo.m */; };
+		6D25DB5C1FB5D4C700E81E1B /* NJCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB5A1FB5D4C700E81E1B /* NJCommon.m */; };
+		6D25DB5D1FB5D4C700E81E1B /* NJCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB5B1FB5D4C700E81E1B /* NJCommon.h */; };
+		6D25DB5F1FB5D4F300E81E1B /* configure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB5E1FB5D4F300E81E1B /* configure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB631FB5D72100E81E1B /* NJNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB611FB5D72100E81E1B /* NJNode.m */; };
+		6D25DB641FB5D72100E81E1B /* NJNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB621FB5D72100E81E1B /* NJNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D25DB681FB5D9FF00E81E1B /* NJNotebookPaperInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB661FB5D9FF00E81E1B /* NJNotebookPaperInfo.h */; };
+		6D25DB691FB5D9FF00E81E1B /* NJNotebookPaperInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB671FB5D9FF00E81E1B /* NJNotebookPaperInfo.m */; };
+		6D25DB6D1FB5DA6A00E81E1B /* NJVoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB6B1FB5DA6A00E81E1B /* NJVoiceManager.m */; };
+		6D25DB6E1FB5DA6A00E81E1B /* NJVoiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB6C1FB5DA6A00E81E1B /* NJVoiceManager.h */; };
+		6D25DB721FB5EC9F00E81E1B /* libZipZap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D25DB711FB5EC9F00E81E1B /* libZipZap.a */; };
+		6D25DB751FB5EE2A00E81E1B /* NPPaperManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB731FB5EE2A00E81E1B /* NPPaperManager.h */; };
+		6D25DB761FB5EE2A00E81E1B /* NPPaperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB741FB5EE2A00E81E1B /* NPPaperManager.m */; };
+		6D25DB7A1FB5F2F100E81E1B /* NJXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB781FB5F2F100E81E1B /* NJXMLParser.m */; };
+		6D25DB7B1FB5F2F100E81E1B /* NJXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB791FB5F2F100E81E1B /* NJXMLParser.h */; };
+		6D25DB7E1FB5F34600E81E1B /* MyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB7C1FB5F34600E81E1B /* MyFunctions.m */; };
+		6D25DB7F1FB5F34600E81E1B /* MyFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB7D1FB5F34600E81E1B /* MyFunctions.h */; };
+		6D25DB821FB5F44000E81E1B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB801FB5F44000E81E1B /* KeychainItemWrapper.m */; };
+		6D25DB831FB5F44000E81E1B /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB811FB5F44000E81E1B /* KeychainItemWrapper.h */; };
+		6D25DB861FB5F8AF00E81E1B /* NJVoiceMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB841FB5F8AF00E81E1B /* NJVoiceMemo.m */; };
+		6D25DB871FB5F8AF00E81E1B /* NJVoiceMemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB851FB5F8AF00E81E1B /* NJVoiceMemo.h */; };
+		6D25DB8A1FB5F96900E81E1B /* NJMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25DB881FB5F96900E81E1B /* NJMedia.h */; };
+		6D25DB8B1FB5F96900E81E1B /* NJMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25DB891FB5F96900E81E1B /* NJMedia.m */; };
+		6DDFC86D1FB830920003CAC1 /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = 6D1989001FB74077007F894B /* module.modulemap */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D1989001FB74077007F894B /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		6D25DB341FB5D36400E81E1B /* libPenLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPenLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D25DB371FB5D36400E81E1B /* PenLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenLib.h; sourceTree = "<group>"; };
+		6D25DB421FB5D42000E81E1B /* NJPenCommManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPenCommManager.h; sourceTree = "<group>"; };
+		6D25DB431FB5D42000E81E1B /* NJPenCommManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJPenCommManager.m; sourceTree = "<group>"; };
+		6D25DB461FB5D45100E81E1B /* NJPenCommParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPenCommParser.h; sourceTree = "<group>"; };
+		6D25DB471FB5D45100E81E1B /* NJPenCommParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJPenCommParser.m; sourceTree = "<group>"; };
+		6D25DB4A1FB5D46000E81E1B /* NeoPenService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeoPenService.h; sourceTree = "<group>"; };
+		6D25DB4D1FB5D48400E81E1B /* NPNotebookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPNotebookInfo.h; sourceTree = "<group>"; };
+		6D25DB4E1FB5D48400E81E1B /* NPNotebookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPNotebookInfo.m; sourceTree = "<group>"; };
+		6D25DB511FB5D48D00E81E1B /* NPPaperInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPaperInfo.m; sourceTree = "<group>"; };
+		6D25DB521FB5D48D00E81E1B /* NPPaperInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPaperInfo.h; sourceTree = "<group>"; };
+		6D25DB551FB5D4A800E81E1B /* NPPUIInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPUIInfo.h; sourceTree = "<group>"; };
+		6D25DB561FB5D4A800E81E1B /* NPPUIInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPUIInfo.m; sourceTree = "<group>"; };
+		6D25DB5A1FB5D4C700E81E1B /* NJCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJCommon.m; sourceTree = "<group>"; };
+		6D25DB5B1FB5D4C700E81E1B /* NJCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJCommon.h; sourceTree = "<group>"; };
+		6D25DB5E1FB5D4F300E81E1B /* configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configure.h; sourceTree = "<group>"; };
+		6D25DB611FB5D72100E81E1B /* NJNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNode.m; sourceTree = "<group>"; };
+		6D25DB621FB5D72100E81E1B /* NJNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNode.h; sourceTree = "<group>"; };
+		6D25DB661FB5D9FF00E81E1B /* NJNotebookPaperInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJNotebookPaperInfo.h; sourceTree = "<group>"; };
+		6D25DB671FB5D9FF00E81E1B /* NJNotebookPaperInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJNotebookPaperInfo.m; sourceTree = "<group>"; };
+		6D25DB6B1FB5DA6A00E81E1B /* NJVoiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJVoiceManager.m; sourceTree = "<group>"; };
+		6D25DB6C1FB5DA6A00E81E1B /* NJVoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJVoiceManager.h; sourceTree = "<group>"; };
+		6D25DB711FB5EC9F00E81E1B /* libZipZap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZipZap.a; path = lib/libZipZap.a; sourceTree = "<group>"; };
+		6D25DB731FB5EE2A00E81E1B /* NPPaperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPaperManager.h; sourceTree = "<group>"; };
+		6D25DB741FB5EE2A00E81E1B /* NPPaperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPaperManager.m; sourceTree = "<group>"; };
+		6D25DB781FB5F2F100E81E1B /* NJXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJXMLParser.m; sourceTree = "<group>"; };
+		6D25DB791FB5F2F100E81E1B /* NJXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJXMLParser.h; sourceTree = "<group>"; };
+		6D25DB7C1FB5F34600E81E1B /* MyFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFunctions.m; sourceTree = "<group>"; };
+		6D25DB7D1FB5F34600E81E1B /* MyFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFunctions.h; sourceTree = "<group>"; };
+		6D25DB801FB5F44000E81E1B /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		6D25DB811FB5F44000E81E1B /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		6D25DB841FB5F8AF00E81E1B /* NJVoiceMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJVoiceMemo.m; sourceTree = "<group>"; };
+		6D25DB851FB5F8AF00E81E1B /* NJVoiceMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJVoiceMemo.h; sourceTree = "<group>"; };
+		6D25DB881FB5F96900E81E1B /* NJMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMedia.h; sourceTree = "<group>"; };
+		6D25DB891FB5F96900E81E1B /* NJMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMedia.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D25DB311FB5D36400E81E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D25DB721FB5EC9F00E81E1B /* libZipZap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D25DB2B1FB5D36400E81E1B = {
+			isa = PBXGroup;
+			children = (
+				6D25DB711FB5EC9F00E81E1B /* libZipZap.a */,
+				6D25DB361FB5D36400E81E1B /* PenLib */,
+				6D25DB351FB5D36400E81E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D25DB351FB5D36400E81E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB341FB5D36400E81E1B /* libPenLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D25DB361FB5D36400E81E1B /* PenLib */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB401FB5D3DC00E81E1B /* n2base */,
+				6D25DB371FB5D36400E81E1B /* PenLib.h */,
+				6D1989001FB74077007F894B /* module.modulemap */,
+			);
+			path = PenLib;
+			sourceTree = "<group>";
+		};
+		6D25DB401FB5D3DC00E81E1B /* n2base */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB771FB5F2E800E81E1B /* utils */,
+				6D25DB6A1FB5DA5E00E81E1B /* managers */,
+				6D25DB651FB5D9F400E81E1B /* models */,
+				6D25DB601FB5D66700E81E1B /* pageData */,
+				6D25DB591FB5D4BA00E81E1B /* common */,
+				6D25DB411FB5D40000E81E1B /* penComm */,
+			);
+			path = n2base;
+			sourceTree = "<group>";
+		};
+		6D25DB411FB5D40000E81E1B /* penComm */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB4C1FB5D47600E81E1B /* models */,
+				6D25DB4A1FB5D46000E81E1B /* NeoPenService.h */,
+				6D25DB731FB5EE2A00E81E1B /* NPPaperManager.h */,
+				6D25DB741FB5EE2A00E81E1B /* NPPaperManager.m */,
+				6D25DB461FB5D45100E81E1B /* NJPenCommParser.h */,
+				6D25DB471FB5D45100E81E1B /* NJPenCommParser.m */,
+				6D25DB421FB5D42000E81E1B /* NJPenCommManager.h */,
+				6D25DB431FB5D42000E81E1B /* NJPenCommManager.m */,
+			);
+			path = penComm;
+			sourceTree = "<group>";
+		};
+		6D25DB4C1FB5D47600E81E1B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB551FB5D4A800E81E1B /* NPPUIInfo.h */,
+				6D25DB561FB5D4A800E81E1B /* NPPUIInfo.m */,
+				6D25DB521FB5D48D00E81E1B /* NPPaperInfo.h */,
+				6D25DB511FB5D48D00E81E1B /* NPPaperInfo.m */,
+				6D25DB4D1FB5D48400E81E1B /* NPNotebookInfo.h */,
+				6D25DB4E1FB5D48400E81E1B /* NPNotebookInfo.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6D25DB591FB5D4BA00E81E1B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB5E1FB5D4F300E81E1B /* configure.h */,
+				6D25DB5B1FB5D4C700E81E1B /* NJCommon.h */,
+				6D25DB5A1FB5D4C700E81E1B /* NJCommon.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6D25DB601FB5D66700E81E1B /* pageData */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB881FB5F96900E81E1B /* NJMedia.h */,
+				6D25DB891FB5F96900E81E1B /* NJMedia.m */,
+				6D25DB851FB5F8AF00E81E1B /* NJVoiceMemo.h */,
+				6D25DB841FB5F8AF00E81E1B /* NJVoiceMemo.m */,
+				6D25DB621FB5D72100E81E1B /* NJNode.h */,
+				6D25DB611FB5D72100E81E1B /* NJNode.m */,
+			);
+			path = pageData;
+			sourceTree = "<group>";
+		};
+		6D25DB651FB5D9F400E81E1B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB661FB5D9FF00E81E1B /* NJNotebookPaperInfo.h */,
+				6D25DB671FB5D9FF00E81E1B /* NJNotebookPaperInfo.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6D25DB6A1FB5DA5E00E81E1B /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB6C1FB5DA6A00E81E1B /* NJVoiceManager.h */,
+				6D25DB6B1FB5DA6A00E81E1B /* NJVoiceManager.m */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		6D25DB771FB5F2E800E81E1B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6D25DB811FB5F44000E81E1B /* KeychainItemWrapper.h */,
+				6D25DB801FB5F44000E81E1B /* KeychainItemWrapper.m */,
+				6D25DB7D1FB5F34600E81E1B /* MyFunctions.h */,
+				6D25DB7C1FB5F34600E81E1B /* MyFunctions.m */,
+				6D25DB791FB5F2F100E81E1B /* NJXMLParser.h */,
+				6D25DB781FB5F2F100E81E1B /* NJXMLParser.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D25DB321FB5D36400E81E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D25DB571FB5D4A800E81E1B /* NPPUIInfo.h in Headers */,
+				6D25DB7F1FB5F34600E81E1B /* MyFunctions.h in Headers */,
+				6D25DB871FB5F8AF00E81E1B /* NJVoiceMemo.h in Headers */,
+				6D25DB5D1FB5D4C700E81E1B /* NJCommon.h in Headers */,
+				6D25DB5F1FB5D4F300E81E1B /* configure.h in Headers */,
+				6D25DB8A1FB5F96900E81E1B /* NJMedia.h in Headers */,
+				6D25DB681FB5D9FF00E81E1B /* NJNotebookPaperInfo.h in Headers */,
+				6D25DB441FB5D42000E81E1B /* NJPenCommManager.h in Headers */,
+				6D25DB641FB5D72100E81E1B /* NJNode.h in Headers */,
+				6DDFC86D1FB830920003CAC1 /* module.modulemap in Headers */,
+				6D25DB831FB5F44000E81E1B /* KeychainItemWrapper.h in Headers */,
+				6D25DB381FB5D36400E81E1B /* PenLib.h in Headers */,
+				6D25DB7B1FB5F2F100E81E1B /* NJXMLParser.h in Headers */,
+				6D25DB6E1FB5DA6A00E81E1B /* NJVoiceManager.h in Headers */,
+				6D25DB481FB5D45100E81E1B /* NJPenCommParser.h in Headers */,
+				6D25DB751FB5EE2A00E81E1B /* NPPaperManager.h in Headers */,
+				6D25DB541FB5D48D00E81E1B /* NPPaperInfo.h in Headers */,
+				6D25DB4F1FB5D48400E81E1B /* NPNotebookInfo.h in Headers */,
+				6D25DB4B1FB5D46000E81E1B /* NeoPenService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D25DB331FB5D36400E81E1B /* PenLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D25DB3D1FB5D36400E81E1B /* Build configuration list for PBXNativeTarget "PenLib" */;
+			buildPhases = (
+				6D25DB301FB5D36400E81E1B /* Sources */,
+				6D25DB311FB5D36400E81E1B /* Frameworks */,
+				6D25DB321FB5D36400E81E1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenLib;
+			productName = PenLib;
+			productReference = 6D25DB341FB5D36400E81E1B /* libPenLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D25DB2C1FB5D36400E81E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Process;
+				TargetAttributes = {
+					6D25DB331FB5D36400E81E1B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D25DB2F1FB5D36400E81E1B /* Build configuration list for PBXProject "PenLib" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D25DB2B1FB5D36400E81E1B;
+			productRefGroup = 6D25DB351FB5D36400E81E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D25DB331FB5D36400E81E1B /* PenLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D25DB301FB5D36400E81E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D25DB5C1FB5D4C700E81E1B /* NJCommon.m in Sources */,
+				6D25DB631FB5D72100E81E1B /* NJNode.m in Sources */,
+				6D25DB7E1FB5F34600E81E1B /* MyFunctions.m in Sources */,
+				6D25DB861FB5F8AF00E81E1B /* NJVoiceMemo.m in Sources */,
+				6D25DB6D1FB5DA6A00E81E1B /* NJVoiceManager.m in Sources */,
+				6D25DB761FB5EE2A00E81E1B /* NPPaperManager.m in Sources */,
+				6D25DB581FB5D4A800E81E1B /* NPPUIInfo.m in Sources */,
+				6D25DB821FB5F44000E81E1B /* KeychainItemWrapper.m in Sources */,
+				6D25DB691FB5D9FF00E81E1B /* NJNotebookPaperInfo.m in Sources */,
+				6D25DB451FB5D42000E81E1B /* NJPenCommManager.m in Sources */,
+				6D25DB501FB5D48400E81E1B /* NPNotebookInfo.m in Sources */,
+				6D25DB8B1FB5F96900E81E1B /* NJMedia.m in Sources */,
+				6D25DB491FB5D45100E81E1B /* NJPenCommParser.m in Sources */,
+				6D25DB7A1FB5F2F100E81E1B /* NJXMLParser.m in Sources */,
+				6D25DB531FB5D48D00E81E1B /* NPPaperInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D25DB3B1FB5D36400E81E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "";
+				MODULE_NAME = PenLib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D25DB3C1FB5D36400E81E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "";
+				MODULE_NAME = PenLib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D25DB3E1FB5D36400E81E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/PenLib;
+			};
+			name = Debug;
+		};
+		6D25DB3F1FB5D36400E81E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/PenLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D25DB2F1FB5D36400E81E1B /* Build configuration list for PBXProject "PenLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D25DB3B1FB5D36400E81E1B /* Debug */,
+				6D25DB3C1FB5D36400E81E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D25DB3D1FB5D36400E81E1B /* Build configuration list for PBXNativeTarget "PenLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D25DB3E1FB5D36400E81E1B /* Debug */,
+				6D25DB3F1FB5D36400E81E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D25DB2C1FB5D36400E81E1B /* Project object */;
+}

@@ -785,7 +785,7 @@ NSString * NJPenBatteryLowWarningNotification = @"NJPenBatteryLowWarningNotifica
 
 - (void)startScanTimer:(CGFloat)duration
 {
-    NSLog(@"STARTING scan timer"); // TODO
+    NSLog(@"STARTING scan timer"); // TODO: remove comment
     if (!_timer)
     {
         _timer = [NSTimer timerWithTimeInterval:duration
@@ -793,14 +793,13 @@ NSString * NJPenBatteryLowWarningNotification = @"NJPenBatteryLowWarningNotifica
                                        selector:@selector(selectRSSI)
                                        userInfo:nil
                                         repeats:NO];
-        NSLog(@"TIMER created: %@", _timer); // TODO
         [[NSRunLoop mainRunLoop] addTimer:_timer forMode:NSDefaultRunLoopMode];
     }
 }
 
 - (void)stopScanTimer
 {
-    NSLog(@"STOPPING scan timer"); // TODO
+    NSLog(@"STOPPING scan timer"); // TODO: remove comment
     [_timer invalidate];
     _timer = nil;
 }
